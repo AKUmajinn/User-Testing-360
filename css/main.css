@@ -1,0 +1,296 @@
+*{
+	font-family: "Lato";
+}
+p, li{
+	font-size:18px;
+}
+a:hover{
+	text-decoration: none
+}
+.backgound-header{
+	background-image: url("../image/large.jpg");
+	background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+}
+nav{
+	width: 100%;
+	padding: 3% 0;
+}
+nav li{
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+	font-size: 20px;
+}
+li a{
+	color: white;
+}
+
+nav a:hover{
+	text-decoration: none;
+}
+
+header h1{
+	font-size: 50px;
+}
+
+.franja-azul{
+    background-color: rgba(3, 110, 186, 0.58);
+    position: absolute;
+    /* left: 0; */
+    /* right: 0; */
+    bottom: 0;
+    width: 100%;
+    padding: 1% 0;
+}
+header h1{
+	padding: 15vh 0;
+}
+.franja-azul a{
+    color: white;
+    border: 2px solid white;
+    /* padding: 12px 43px; */
+    font-size: 27px;
+    margin: 2% 0; 
+}
+
+/*Nuestros servicios*/
+.nuestros-servicios{
+    margin-top: 100vh;
+    text-align: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.13);
+    margin-bottom: 5%;
+    position: relative;
+    padding: 6% 0;
+}
+.nuestros-servicios h2{
+    color: #68ADFF;
+    font-weight: 300;
+    font-size: 40px;
+    margin: 7% 0 2%;
+}
+.servicios{
+    padding: 7% 2%;
+}
+.servicios a{
+    font-size: 45px;
+    color: #68ADFF;
+    box-shadow: -1px 4px 16px -3px rgba(0, 0, 0, 0.39);
+    border-radius: 100px;
+    padding: 12%;
+}
+.btn:hover{
+	transition: all 1s ease;
+}
+.servicios h3{
+	color: #6F8CA7;
+	margin: 7% 0;
+}
+.separador1{
+	position: absolute;
+    bottom: -8%;
+    left: 46%;
+}
+/*secion de ejemplos*/
+.ejemplo{
+	border-bottom: 1px solid rgba(128, 128, 128, 0.13);
+    padding: 4% 0;
+}
+.ejemplo h2{
+	color: #68ADFF;
+    font-weight: 300;
+    font-size: 45px;
+    margin: 1% 0;
+}
+.descripcion h2{
+	padding: 0;
+	text-align: center;
+}
+.titulo-parte2{
+	padding: 0;
+}
+.descripcion p{
+	margin: 7% 0;
+}
+
+.video{
+	width: 100%;
+	position: relative;
+	padding-bottom: 56.25%;
+	overflow: hidden;
+}
+.video iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/*seccion de los pasos*/
+.pasos{
+	padding-right: 15px;
+	padding-left: 15px;
+	border-bottom: 1px solid rgba(128, 128, 128, 0.13);
+	position: relative;
+	mar
+}
+.pasos-background{
+	background-image: url("../image/sec-2.jpg");
+	background-size: cover;
+	padding: 0;
+}
+.transparencia-pasos{
+    background: rgba(0, 0, 0, 0.41);
+ 	padding: 40% 0;
+}
+.pasos-descripcion{
+	padding: 1% 2% 5% 5%;
+}
+.pasos h3{
+	color: #68ADFF;
+	font-weight: 300;
+	font-size: 20px;
+	margin-top: 5%;
+}
+.pasos ul{
+	padding: 0 4%;
+}
+.pasos li{
+	margin: 2% 0;
+}
+.pasos p{
+	margin-bottom: 1%;
+}
+
+.icon-pencil, .icon-tools, .icon-search{
+    background: #50BDEA;
+    color: white;
+    display: inline-block;
+    padding: 14px;
+    border-radius: 31px;
+    font-size: 30px;
+    position: absolute;
+	left: 49%;
+}
+.icon-pencil{
+    top: 13%;
+}
+.icon-tools{
+	top: 39%;
+}
+.icon-search{
+	top: 65%;
+}
+.separador2{
+    position: absolute;
+    left: 47%;
+    bottom: -9%;
+    display: inherit;
+}
+/*porque usar user*/
+.porque-usar{
+	padding: 8% 0;
+}
+.titulop{
+	margin-bottom:3%;
+
+}
+.titulop h2{
+	margin: 1% 0;
+	color: #68ADFF;
+    font-weight: 300;
+    font-size: 42px;
+}
+
+.titulo-porque{
+	padding: 0;
+}
+.porque-usar ul{
+    padding: 0 4%;
+    margin: 5% 0;
+}
+.porque-usar li{
+	margin: 2% 0;
+}
+.porque-usar span{
+	color: #337AC6;
+}
+/*franja azul inferior*/
+.franja-azul-inferior{
+	background: #74A3DB;
+	color: white;
+	padding: 2% 0;
+}
+.franja-azul-inferior a{
+	border: 2px solid white;
+	color: white;
+    font-size: 30px;
+    margin-top: 2%;
+}
+/*FOOTER*/
+footer{
+	color: white;
+	background: #2A3541;
+    padding: 2% 3%;
+}
+footer span{
+	display: block;
+}
+footer .email{
+	display: block;
+	margin: 2% 0;
+}
+footer .icon-facebook, footer .icon-twitter{
+	font-size: 40px;
+	margin-left: 10%;
+}
+.copyright{
+	display: block;
+}
+footer p{
+	margin-top:3%;
+}
+
+/*contacto*/
+.contacto{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right:0;
+	left: 0;
+	background-image: url("../image/large.jpg");
+	background-size: cover;
+}
+
+/*contaaaaaaaaaaaaaaaccccccc*/
+.container-form{
+    background: rgba(0, 0, 0, 0.17);
+    padding-bottom: 4%;
+    margin-top: 13%;
+}
+form{
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+	padding-top: 4%;
+}
+label, h1{
+	color: white
+}
+input, textarea{
+    background: rgba(255, 255, 255, 0.44);
+    /* text-decoration: none; */
+    border: 1px solid rgba(0, 0, 0, 0.33);
+    border-radius: 3px;
+}
